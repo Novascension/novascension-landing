@@ -468,4 +468,83 @@ footer a:hover {
   text-transform: uppercase;
   text-align: center;
   margin-top: 6px;
+}@media (max-width: 600px) {
+  .landing {
+    padding: 28px 16px 24px;
+    justify-content: flex-start;
+  }
+
+  .main-logo-fixed {
+    width: min(360px, 92vw);
+    margin-top: 10px;
+  }
+
+  .path-title {
+    margin: 42px 0 34px;
+    font-size: 1.25rem;
+    letter-spacing: 0.12em;
+    line-height: 1.6;
+    max-width: 92vw;
+  }
+
+  .path-grid-fixed {
+    grid-template-columns: 1fr;
+    max-width: 92vw;
+    gap: 28px;
+    margin-top: 0;
+  }
+
+  .path-card-fixed {
+    min-height: auto;
+    padding: 20px 14px;
+    border-radius: 20px;
+  }
+
+  .path-logo-fixed {
+    width: min(280px, 86vw);
+  }
+
+  .path-card-fixed p {
+    font-size: 0.7rem;
+    letter-spacing: 0.12em;
+    line-height: 1.7;
+  }
+
+  .mission {
+    margin-top: 34px;
+    max-width: 92vw;
+    font-size: 0.85rem;
+    letter-spacing: 0.14em;
+    line-height: 1.9;
+  }
+
+  footer {
+    margin-top: 24px;
+  }
+
+  .footer-icons {
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nebula-left,
+  .nebula-right {
+    width: 70vw;
+    opacity: 0.35;
+  }
+
+  .nebula-left {
+    left: -48vw;
+  }
+
+  .nebula-right {
+    right: -48vw;
+  }
+
+  .earth-glow {
+    bottom: -24vh;
+    width: 190vw;
+    height: 42vh;
+  }
 }
