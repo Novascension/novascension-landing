@@ -468,64 +468,106 @@ footer a:hover {
   text-transform: uppercase;
   text-align: center;
   margin-top: 6px;
-}@media (max-width: 600px) {
+@media (max-width: 600px) {
+  html,
+  body,
+  .site {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
   .landing {
-    padding: 28px 16px 24px;
+    width: 100%;
+    max-width: 100%;
+    padding: 28px 14px 24px;
     justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
   }
 
   .main-logo-fixed {
-    width: min(360px, 92vw);
-    margin-top: 10px;
+    width: min(340px, 88vw);
+    max-width: 88vw;
+    margin: 8px auto 0;
+    display: block;
   }
 
   .path-title {
-    margin: 42px 0 34px;
-    font-size: 1.25rem;
-    letter-spacing: 0.12em;
+    width: 100%;
+    max-width: 90vw;
+    margin: 40px auto 32px;
+    font-size: 1.18rem;
+    letter-spacing: 0.11em;
     line-height: 1.6;
-    max-width: 92vw;
+    text-align: center;
   }
 
   .path-grid-fixed {
+    width: 100%;
+    max-width: 90vw;
+    display: grid;
     grid-template-columns: 1fr;
-    max-width: 92vw;
     gap: 28px;
-    margin-top: 0;
+    margin: 0 auto;
+    justify-items: center;
+    box-sizing: border-box;
   }
 
   .path-card-fixed {
+    width: 100%;
+    max-width: 360px;
     min-height: auto;
-    padding: 20px 14px;
+    padding: 18px 14px;
     border-radius: 20px;
+    box-sizing: border-box;
   }
 
   .path-logo-fixed {
-    width: min(280px, 86vw);
+    width: min(260px, 80vw);
+    max-width: 80vw;
+    margin: 0 auto;
+    display: block;
   }
 
   .path-card-fixed p {
-    font-size: 0.7rem;
-    letter-spacing: 0.12em;
+    font-size: 0.68rem;
+    letter-spacing: 0.11em;
     line-height: 1.7;
+    text-align: center;
   }
 
   .mission {
-    margin-top: 34px;
-    max-width: 92vw;
-    font-size: 0.85rem;
-    letter-spacing: 0.14em;
+    width: 100%;
+    max-width: 90vw;
+    margin: 34px auto 0;
+    font-size: 0.82rem;
+    letter-spacing: 0.12em;
     line-height: 1.9;
+    text-align: center;
   }
 
   footer {
-    margin-top: 24px;
+    width: 100%;
+    margin: 24px auto 0;
+    text-align: center;
   }
 
   .footer-icons {
+    display: flex;
     gap: 16px;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 16px;
+  }
+
+  .copyright {
+    max-width: 90vw;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0.68rem;
+    letter-spacing: 0.12em;
+    line-height: 1.6;
   }
 
   .nebula-left,
@@ -535,11 +577,11 @@ footer a:hover {
   }
 
   .nebula-left {
-    left: -48vw;
+    left: -50vw;
   }
 
   .nebula-right {
-    right: -48vw;
+    right: -50vw;
   }
 
   .earth-glow {
