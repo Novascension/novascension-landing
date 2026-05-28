@@ -589,7 +589,8 @@ footer a:hover {
     width: 190vw;
     height: 42vh;
   }
-}@media (max-width: 768px) {
+}
+@media (max-width: 768px) {
   html,
   body,
   #root,
@@ -713,4 +714,5 @@ footer a:hover {
     bottom: -22vh !important;
     transform: translateX(-50%) !important;
   }
+}
 }
