@@ -706,4 +706,51 @@ footer a:hover {
     transform: translateX(-50%) !important;
   }
 }
+}@media (max-width: 600px) {
+  .main-logo-fixed {
+    width: 78vw !important;
+    max-width: 300px !important;
+  }
+
+  .path-title {
+    width: 82vw !important;
+    max-width: 82vw !important;
+    font-size: 1rem !important;
+    letter-spacing: 0.08em !important;
+  }
+
+  .path-grid-fixed {
+    width: 82vw !important;
+    max-width: 320px !important;
+  }
+
+  .path-card-fixed {
+    width: 82vw !important;
+    max-width: 320px !important;
+    padding: 16px 10px !important;
+  }
+
+  .path-logo-fixed {
+    width: 68vw !important;
+    max-width: 240px !important;
+  }
+
+  .path-card-fixed p {
+    max-width: 70vw !important;
+    font-size: 0.6rem !important;
+    letter-spacing: 0.08em !important;
+  }
+
+  .mission {
+    width: 82vw !important;
+    max-width: 320px !important;
+    font-size: 0.74rem !important;
+    letter-spacing: 0.08em !important;
+  }
+
+  footer,
+  .copyright {
+    width: 82vw !important;
+    max-width: 320px !important;
+  }
 }
