@@ -455,6 +455,7 @@ footer a:hover {
   .path-title {
     letter-spacing: 0.16em;
   }
+}
 .footer-icons {
   display: flex;
   gap: 22px;
